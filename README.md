@@ -164,7 +164,7 @@ ecommerce-sales-analysis/
 │
 ├── README.md                    # This file
 ├── data/
-│   ├── PROJECT.xlsx            # Raw sales data
+│   ├── PROJECT.xlsx            # data file
 │    
 ├── Images/
 │     └── Monthly_Perfomance_dashboard.png   # Screenshot
