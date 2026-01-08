@@ -1,9 +1,9 @@
 # 📊 Project Overview
-A comprehensive analysis of 48 months of e-commerce sales data to identify profitability trends, optimize discount strategies, and improve business decision-making. This project demonstrates end-to-end data analysis skills including data cleaning, metric calculation, trend analysis, and dashboard creation.
+**A comprehensive analysis of 48 months of e-commerce sales data to identify profitability trends, optimize discount strategies, and improve business decision-making. This project demonstrates end-to-end data analysis skills including data cleaning, metric calculation, trend analysis, and dashboard creation.**
 
-Analysis Period: January 2014 - December 2017
+**Analysis Period: January 2014 - December 2017
 Total Records: 48 months of transactional data
-Business Impact: Identified profit-loss patterns and discount optimization opportunities.
+Business Impact: Identified profit-loss patterns and discount optimization opportunities.**
 
 🎯 Business Problem
 The e-commerce business needed to:
@@ -131,6 +131,78 @@ The e-commerce business needed to:
 **The interactive dashboard includes:**
 - Monthly Performance KPIs: Sales, profit, orders, margin, average order value
 - Trend Visualizations: Shipping days over time, MoM sales growth, MoM profit growth
-- Alert System: Visual indicators for low-profit months
 - Key Metrics Summary: Average discount, profit per order, shipping performance, profit margin
+  
+![Dashboard](images/monthly_sales_dashboard.png)
+***Dashboard showing September 2017 performance with trend analysis***
 
+## ⚠️ Data Limitations & Future Analysis Needs
+**While this dataset provides valuable insights into sales and profit trends, it has some limitations:**
+
+**Missing Data:**
+- No cost breakdown (COGS, operational expenses, marketing costs)
+- No product-level details (which products were sold)
+- No customer information (acquisition channels, retention rates)
+- No seasonal factors or campaign details
+
+**Questions That Cannot Be Answered:**
+- Why were costs high in specific months?
+- Which products drive profitability?
+- What caused the extreme volatility in growth rates?
+- Are discounts attracting new customers or just reducing margins?
+
+**Recommended Additional Data:**
+- Product catalog with cost and pricing
+- Customer acquisition source
+- Marketing spend per month
+- Inventory levels and turnover
+- Customer lifetime value
+
+## 📂 Project Structure
+```
+ecommerce-sales-analysis/
+│
+├── README.md                    # This file
+├── data/
+│   ├── PROJECT.xlsx            # Raw sales data
+│   └── data_dictionary.md      # Column descriptions
+│
+├── analysis/
+│   ├── calculations.xlsx       # Analysis workbook
+│   └── insights.md            # Detailed findings
+│
+├── dashboard/
+│   ├── PROJECT_1.xlsx         # Dashboard file
+│   └── dashboard_preview.png   # Screenshot
+│
+└── reports/
+    └── final_report.pdf       # Executive summary
+```
+## 🎓 Learning Outcomes
+
+**Through this project, I developed skills in:**
+- Data Cleaning: Handling real-world messy data
+- Metric Engineering: Creating meaningful KPIs from raw data
+- Trend Analysis: Identifying patterns in time-series data
+- Business Intelligence: Translating data into actionable insights
+- Data Visualization: Creating clear, informative dashboards
+- Critical Thinking: Asking the right questions about the data
+
+## 🚀 Future Improvements
+1. Predictive Analytics: Build a forecasting model for future sales
+2. Customer Segmentation: Analyze customer behavior patterns
+3. Product Analysis: Deep dive into which products drive profitability
+4. Automated Reporting: Create weekly performance alerts
+
+## 📞 Contact & Collaboration
+**Author: Adeyemi Toheeb ||** 
+**LinkedIn: www.linkedin.com/in/toymat ||**
+**Email: toyymat@gmail.com**
+
+## 🙏 Acknowledgments
+- The dataset used in this project was sourced from kaggle
+- Analysis methodology inspired by real-world business intelligence practices
+- Dashboard design follows best practices in data visualization
+
+## ⭐ If you found this project helpful, please give it a star!
+**Last Updated:** January 2026
