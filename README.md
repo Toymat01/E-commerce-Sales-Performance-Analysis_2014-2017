@@ -1,5 +1,5 @@
 # 📊 Project Overview
-**A comprehensive analysis of 48 months of e-commerce sales data to identify profitability trends, optimize discount strategies, and improve business decision-making. This project demonstrates end-to-end data analysis skills including data cleaning, metric calculation, trend analysis, and dashboard creation.**
+**A comprehensive analysis of 48 months of e-commerce sales data to identify profitability trends, optimize discount strategies, and improve business decision-making. This project demonstrates end-to-end data analysis skills, including data cleaning, metric calculation, trend analysis, and dashboard creation.**
 
 **Analysis Period: January 2014 - December 2017
 Total Records: 48 months of transactional data
@@ -165,15 +165,9 @@ ecommerce-sales-analysis/
 ├── README.md                    # This file
 ├── data/
 │   ├── PROJECT.xlsx            # Raw sales data
-│   └── data_dictionary.md      # Column descriptions
-│
-├── analysis/
-│   ├── calculations.xlsx       # Analysis workbook
-│   └── insights.md            # Detailed findings
-│
-├── dashboard/
-│   ├── PROJECT_1.xlsx         # Dashboard file
-│   └── dashboard_preview.png   # Screenshot
+│    
+├── Images/
+│     └── Monthly_Perfomance_dashboard.png   # Screenshot
 │
 └── reports/
     └── final_report.pdf       # Executive summary
